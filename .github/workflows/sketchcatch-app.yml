@@ -5,8 +5,8 @@ on:
     branches: ["main"]
     paths:
       - "**"
-      - "!sketchcatch/demo/terraform/**"
-      - "!sketchcatch/demo/ci-cd/**"
+      - "!sketchcatch/test1/terraform/**"
+      - "!sketchcatch/test1/ci-cd/**"
       - '!.github/workflows/sketchcatch-infra.yml'
       - '!.github/workflows/sketchcatch-app.yml'
       - '!.github/workflows/sketchcatch-destroy.yml'
